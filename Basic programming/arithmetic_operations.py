@@ -1,11 +1,16 @@
 # Take two numbers as input from user and store the values in variables number_1 & number_2
 # Hint: Use input() function
-number_1 = int(input("Enter the first number: "))
-number_2 = int(input("Enter the second number: "))
+
+
+number_1 = input("Enter the first number: ")
+number_2 = input("Enter the second number: ")
 
 # Perform below arithmetic operations on those two numbers using operators and print the corresponding output
 # Addition
-print("The sum of", number_1, "and", number_2, "is", number_1 + number_2)
+
+
+sum=number_1+number_2
+print("The sum of", number_1, "and", number_2, "is",sum)
 
 # Subtraction
 print("The difference of", number_1, "and", number_2, "is", number_1 - number_2)
