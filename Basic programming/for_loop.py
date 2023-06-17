@@ -3,6 +3,7 @@ number_list = []
 for i in range(10):
     number = int(input("Enter number {}: ".format(i + 1)))
     number_list.append(number)
+# String formatting allows dynamic insertion of values into strings, improving readability and flexibility.
 
 # Create a function to add two numbers and return the result
 def add_numbers(num1, num2):
